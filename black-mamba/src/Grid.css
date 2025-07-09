@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(25, 20px);
+  grid-template-rows: repeat(25, 20px);
+  border: 1px solid #ccc;
+  width: fit-content;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.player {
+  background-color: black;
+}
+
+.food {
+  background-color: red;
+}
+
+.snake {
+    background-color: green;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
